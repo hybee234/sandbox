@@ -32,10 +32,34 @@ const vintageData = [
     {
         vintage: '2008',
         format: '1500mL',
-        drink_by: '2010',
-        wine_id: 2,
+        drink_by: '2038',
+        wine_id: 3,
+    },
+    {
+        vintage: '2010',
+        format: '750mL',
+        drink_by: '2040',
+        wine_id: 3,
     },
     // Grange (4)
+    {
+        vintage: '2004',
+        format: '750mL',
+        drink_by: '2054',
+        wine_id: 4,
+    },
+    {
+        vintage: '2008',
+        format: '750mL',
+        drink_by: '2058',
+        wine_id: 4,
+    },
+    {
+        vintage: '2012',
+        format: '750mL',
+        drink_by: '2062',
+        wine_id: 4,
+    },
     // Apricot Block (5)
     // Seven Acre Shiraz (6)
     // Roennfeldt Road Cabernet Sauvignon (7)
