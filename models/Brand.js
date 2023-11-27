@@ -23,6 +23,6 @@ Brand.init(
         underscored: true,
         modelName: 'brand',
     }
-    );
+);
 
 module.exports = Brand;

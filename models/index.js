@@ -1,4 +1,3 @@
-// import models
 const Brand = require('./Brand.js');
 const Wine = require('./Wine.js');
 const Vintage = require('./Vintage.js');

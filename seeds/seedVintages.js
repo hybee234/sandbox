@@ -60,6 +60,12 @@ const vintageData = [
         drink_by: '2062',
         wine_id: 4,
     },
+    {
+        vintage: '2017',
+        format: '1500mL',
+        drink_by: '2067',
+        wine_id: 4,
+    },
     // Apricot Block (5)
     // Seven Acre Shiraz (6)
     // Roennfeldt Road Cabernet Sauvignon (7)

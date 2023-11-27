@@ -30,6 +30,6 @@ Wine.init(
         underscored: true,
         modelName: 'Wine',
     }
-    );
+);
 
 module.exports = Wine;

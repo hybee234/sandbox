@@ -375,7 +375,17 @@ const transactionData = [
         user_id: 1,
         vintage_id: 9,
     },  
+    // Grange, 2017 (10)
 
+    {
+        cost: '1800',
+        qty_in: '1',
+        // qty_out: NULL,
+        transaction_date: '2022-06-09',
+        notes: 'TWE - RRP (750mL) $950',
+        user_id: 1,
+        vintage_id: 10,
+    },  
 
     // Apricot Block (5)
     // Seven Acre Shiraz (6)

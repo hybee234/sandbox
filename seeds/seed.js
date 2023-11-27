@@ -6,8 +6,6 @@ const seedVintages = require('./seedVintages');
 const seedTransactions = require('./seedTransactions');
 const seedUsers = require('./seedUsers');
 
-
-
 const seedAll = async () => {
     await sequelize.sync({ force: true });
     console.log('\n----- DATABASE SYNCED -----\n');
@@ -20,9 +18,7 @@ const seedAll = async () => {
     await seedUsers();
     console.log('\n----- USERS SEEDED -----\n');
     await seedTransactions();
-    console.log('\n----- TRANSACTIONS SEEDED -----\n');
-    
-
+    console.log('\n----- TRANSACTIONS SEEDED -----\n');    
     process.exit(0);
 };
 

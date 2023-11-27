@@ -37,6 +37,6 @@ Vintage.init(
         underscored: true,
         modelName: 'vintage',
     }
-    );
+);
 
 module.exports = Vintage;

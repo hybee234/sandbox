@@ -50,6 +50,6 @@ Transaction.init(
         underscored: true,
         modelName: 'transaction',
     }
-    );
+);
 
-    module.exports = Transaction;
+ module.exports = Transaction;

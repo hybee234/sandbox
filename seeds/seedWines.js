@@ -69,6 +69,11 @@ const wineData = [
         wine_name: 'Rifle Range',
         brand_id: 4,
     },
+    // Torbreck (5)
+    {
+        wine_name: 'The Factor',
+        brand_id: 5,
+    },
 ];
 
 const seedWines = () => Wine.bulkCreate(wineData);

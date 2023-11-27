@@ -13,6 +13,9 @@ const brandData = [
   {
     brand_name: 'Rockford',
   },
+  {
+    brand_name: 'Torbrek',
+  },
 ];
 
 const seedBrands = () => Brand.bulkCreate(brandData);
