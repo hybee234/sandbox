@@ -15,6 +15,11 @@ Wine.init(
             type: DataTypes.STRING,
             allowNull: false
         },
+        active_ind: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            defaultValue: 1,
+        },
         brand_id: {
             type: DataTypes.INTEGER,
             references: {
