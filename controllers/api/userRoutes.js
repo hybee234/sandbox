@@ -1,10 +1,10 @@
 const router = require('express').Router();
 const { User } = require('../../models');
 
-// Login route
+// Login route: authenticates a user
 router.post('/login', async (req, res) => {
   try {
-    // Assuming there's a method to find a user by email
+    // Find user by email
     const userData = await User.findOne({ where: { email: req.body.email } });
 
     if (!userData) {
@@ -12,7 +12,7 @@ router.post('/login', async (req, res) => {
       return;
     }
 
-    // Assuming the User model has a method to check the password
+    // Check if the provided password is correct
     const validPassword = await userData.checkPassword(req.body.password);
 
     if (!validPassword) {
@@ -20,7 +20,7 @@ router.post('/login', async (req, res) => {
       return;
     }
 
-    // Add user info to session
+    // Save user info in the session
     req.session.save(() => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
@@ -33,15 +33,18 @@ router.post('/login', async (req, res) => {
   }
 });
 
-// Signup route
+// Signup route: registers a new users
 router.post('/signup', async (req, res) => {
   try {
+
+    // Create a new user
     const userData = await User.create({
       name: req.body.name,
       email: req.body.email,
       password: req.body.password
     });
 
+    // Save user info in the session
     req.session.save(() => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
@@ -53,17 +56,23 @@ router.post('/signup', async (req, res) => {
   }
 });
 
-// Logout route
+// Logout route: logs a user out by destroying the session
 router.post('/logout', (req, res) => {
   if (req.session.logged_in) {
-    // Destroy the session and clear the cookie
-    req.session.destroy(() => {
-      res.status(204).end();
+    req.session.destroy((err) => {
+      if (err) {
+        res.status(500).send('Error logging out');
+      } else {
+        res.clearCookie('connect.sid');
+        res.redirect('/auth')
+      }
     });
   } else {
-    res.status(404).end();
+    res.status(404).send('Not logged in');
   }
 });
 
-// Export the router
+
+
+// Export the router for use in the main app
 module.exports = router;

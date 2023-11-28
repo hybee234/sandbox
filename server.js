@@ -14,7 +14,7 @@ const sess = {
   secret: 'Super secret secret',
   cookie: {},
   resave: false,
-  saveUninitialized: true,
+  saveUninitialized: false,
   store: new SequelizeStore({
     db: sequelize
   })
@@ -42,12 +42,14 @@ app.use(routes);
 
 // Home route
 app.get('/', (req, res) => {
-  res.render('homepage', { layout: 'index' });
+  res.render('homepage', { layout: 'index', logged_in: req.session.logged_in });
 });
 
 // Login/Sign Up route
 app.get('/auth', (req, res) => {
-  res.render('auth');
+  res.render('auth', {
+    logged_in: req.session.logged_in
+  });
 });
 
 sequelize.sync({ force: false }).then(() => {
