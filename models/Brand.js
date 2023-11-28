@@ -14,6 +14,11 @@ Brand.init(
         brand_name: {
             type: DataTypes.STRING,
             allowNull: false
+        },
+        active_ind: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            defaultValue: 1,
         }
     },
     {

@@ -28,6 +28,11 @@ Transaction.init(
         notes: {
             type: DataTypes.STRING            
         },
+        active_ind: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            defaultValue: 1,
+        },
         user_id: {
             type: DataTypes.INTEGER,
             references: {
