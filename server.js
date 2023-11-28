@@ -1,17 +1,30 @@
 const express = require('express');
+const session = require('express-session');
 const path = require('path');
+const sequelize = require('./config/connection');
+const SequelizeStore = require('connect-session-sequelize')(session.Store);
+const handlebars = require('express-handlebars');
+const routes = require('./controllers');
 
 const app = express();
-const port = 3001;
+const PORT = process.env.PORT || 3001;
 
-//Loads the handlebars module
-const handlebars = require('express-handlebars');
-const exp = require('constants');
+// Configure and link a session object with the sequelize store
+const sess = {
+  secret: 'Super secret secret',
+  cookie: {},
+  resave: false,
+  saveUninitialized: true,
+  store: new SequelizeStore({
+    db: sequelize
+  })
+};
 
-//Sets our app to use the handlebars engine
+// Use session middleware with the defined configuration
+app.use(session(sess));
+
+// Sets handlebars configurations
 app.set('view engine', 'hbs');
-
-//Sets handlebars configurations (we will go through them later on)
 app.engine('hbs', handlebars({
   layoutsDir: path.join(__dirname, '/views/layouts'),
   partialsDir: path.join(__dirname, '/views/partials'),
@@ -24,13 +37,19 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Define routes
+app.use(routes);
+
+// Home route
 app.get('/', (req, res) => {
   res.render('homepage', { layout: 'index' });
 });
 
+// Login/Sign Up route
 app.get('/auth', (req, res) => {
   res.render('auth');
 });
 
-
-app.listen(port, () => console.log(`App listening to port ${port}`));
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => console.log(`Now listening to http://localhost:${PORT}`));
+});
