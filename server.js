@@ -16,15 +16,21 @@ app.engine('hbs', handlebars({
   layoutsDir: path.join(__dirname, '/views/layouts'),
   partialsDir: path.join(__dirname, '/views/partials'),
   extname: 'hbs',
+  defaultLayout: 'index'
 }));
 
 // Middlewares
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
   res.render('homepage', { layout: 'index' });
 });
+
+app.get('/auth', (req, res) => {
+  res.render('auth');
+});
+
 
 app.listen(port, () => console.log(`App listening to port ${port}`));
