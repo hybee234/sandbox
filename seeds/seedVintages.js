@@ -7,6 +7,7 @@ const vintageData = [
         format: '750mL',
         drink_by: '2040',
         vintage_total: 17,
+        active_ind: 1,
         wine_id: 1,
     },
     {
@@ -14,6 +15,7 @@ const vintageData = [
         format: '750mL',
         drink_by: '2040',
         vintage_total: 10,
+        active_ind: 1,
         wine_id: 1,
     },
 
@@ -23,6 +25,7 @@ const vintageData = [
         format: '750mL',
         drink_by: '2048',
         vintage_total: 4,
+        active_ind: 1,
         wine_id: 2,
     },
     {
@@ -30,6 +33,7 @@ const vintageData = [
         format: '1500mL',
         drink_by: '2047',
         vintage_total: 6,
+        active_ind: 1,
         wine_id: 2,
     },
     // Bin 707 (3)
@@ -38,6 +42,7 @@ const vintageData = [
         format: '1500mL',
         drink_by: '2038',
         vintage_total: 3,
+        active_ind: 1,
         wine_id: 3,
     },
     {
@@ -45,6 +50,7 @@ const vintageData = [
         format: '750mL',
         drink_by: '2040',
         vintage_total: 2,
+        active_ind: 1,
         wine_id: 3,
     },
     // Grange (4)
@@ -53,6 +59,7 @@ const vintageData = [
         format: '750mL',
         drink_by: '2054',
         vintage_total: 2,
+        active_ind: 1,
         wine_id: 4,
     },
     {
@@ -60,6 +67,7 @@ const vintageData = [
         format: '750mL',
         drink_by: '2058',
         vintage_total: 6,
+        active_ind: 1,
         wine_id: 4,
     },
     {
@@ -67,6 +75,7 @@ const vintageData = [
         format: '750mL',
         drink_by: '2062',
         vintage_total: 3,
+        active_ind: 1,
         wine_id: 4,
     },
     {
@@ -74,6 +83,7 @@ const vintageData = [
         format: '1500mL',
         drink_by: '2067',
         vintage_total: 1,
+        active_ind: 1,
         wine_id: 4,
     },
     // Apricot Block (5)
