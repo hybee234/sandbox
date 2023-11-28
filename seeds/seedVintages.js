@@ -6,12 +6,14 @@ const vintageData = [
         vintage: '2008',
         format: '750mL',
         drink_by: '2040',
+        vintage_total: 17,
         wine_id: 1,
     },
     {
         vintage: '2010',
         format: '750mL',
         drink_by: '2040',
+        vintage_total: 10,
         wine_id: 1,
     },
 
@@ -20,12 +22,14 @@ const vintageData = [
         vintage: '2008',
         format: '750mL',
         drink_by: '2048',
+        vintage_total: 4,
         wine_id: 2,
     },
     {
         vintage: '2017',
         format: '1500mL',
         drink_by: '2047',
+        vintage_total: 6,
         wine_id: 2,
     },
     // Bin 707 (3)
@@ -33,12 +37,14 @@ const vintageData = [
         vintage: '2008',
         format: '1500mL',
         drink_by: '2038',
+        vintage_total: 3,
         wine_id: 3,
     },
     {
         vintage: '2010',
         format: '750mL',
         drink_by: '2040',
+        vintage_total: 2,
         wine_id: 3,
     },
     // Grange (4)
@@ -46,24 +52,28 @@ const vintageData = [
         vintage: '2004',
         format: '750mL',
         drink_by: '2054',
+        vintage_total: 2,
         wine_id: 4,
     },
     {
         vintage: '2008',
         format: '750mL',
         drink_by: '2058',
+        vintage_total: 6,
         wine_id: 4,
     },
     {
         vintage: '2012',
         format: '750mL',
         drink_by: '2062',
+        vintage_total: 3,
         wine_id: 4,
     },
     {
         vintage: '2017',
         format: '1500mL',
         drink_by: '2067',
+        vintage_total: 1,
         wine_id: 4,
     },
     // Apricot Block (5)

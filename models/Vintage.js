@@ -22,6 +22,14 @@ Vintage.init(
         drink_by: {
             type: DataTypes.INTEGER            
         },
+        vintage_total: {
+            type: DataTypes.INTEGER            
+        },
+        active_ind: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            defaultValue: 1,
+        },
         wine_id: {
             type: DataTypes.INTEGER,
             references: {

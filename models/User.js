@@ -8,9 +8,6 @@ class User extends Model {
         return bcrypt.compareSync(loginPw, this.password);
     }
 }
-
-// Check Week 14 MVC  Activity 24 for user login handling
-
 User.init(
     {
         user_id: {
