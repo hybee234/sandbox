@@ -40,17 +40,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Define routes
 app.use(routes);
 
-// Home route
-app.get('/', (req, res) => {
-  res.render('homepage', { layout: 'index', logged_in: req.session.logged_in });
-});
-
-// Login/Sign Up route
-app.get('/auth', (req, res) => {
-  res.render('auth', {
-    logged_in: req.session.logged_in
-  });
-});
 
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log(`Now listening to http://localhost:${PORT}`));

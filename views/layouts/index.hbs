@@ -11,45 +11,75 @@
     <link rel="stylesheet" href="/css/tailwind.css" />
   </head>
   <body>
-    {{! Navbar starts here  }}
+    <!-- Navbar starts here -->
     <nav class="bg-zinc-800">
       <div
         class="px-4 py-6 mx-auto md:px-6 lg:px-8 xl:max-w-7xl 2xl:max-w-[1536px]"
       >
-        <div class="flex items-center justify-between h-16">
-          <a
-            href="/"
-            class="text-xl font-bold text-zinc-100 lg:text-3xl 2xl:text-4xl"
-          >Cellar Vault</a>
 
-          {{! Navbar link container }}
-          <div
-            class="flex items-center justify-center space-x-4 md:space-x-6 lg:space-x-8 xl:space-x-10"
-          >
-            {{! Navbar links }}
+        <!-- Container for navbar content -->
+        <div class="flex items-center justify-between h-16">
+
+          {{! Hamburger Icon }}
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+
+          <!-- Logo or brand name -->
+          <div class="flex-grow text-center md:text-left">
             <a
               href="/"
-              class="py-2 text-sm font-medium duration-200 ease-in-out rounded-md md:px-3 text-zinc-500 hover:text-zinc-100 md:text-base lg:text-lg xl:text-xl"
-            >Home</a>
-
-            {{! Conditionally render logout button if user is logged in }}
-            {{#if logged_in}}
-              <button
-                id="logout-button"
-                class="py-2 text-sm font-medium duration-200 ease-in-out rounded-md md:px-3 text-zinc-500 hover:text-zinc-100 md:text-base lg:text-lg xl:text-xl"
-              >Logout</button>
-            {{else}}
-              <a
-                href="/auth"
-                class="py-2 text-sm font-medium duration-200 ease-in-out rounded-md md:px-3 text-zinc-500 hover:text-zinc-100 md:text-base lg:text-lg xl:text-xl"
-              >Login/Sign Up</a>
-            {{/if}}
+              class="text-xl font-bold text-center text-zinc-100 lg:text-3xl 2xl:text-4xl md:text-left"
+            >
+              Cellar Vault
+            </a>
           </div>
+
+          <!-- Navbar links list -->
+          <ul
+            class="flex items-center justify-center space-x-4 md:space-x-6 lg:space-x-8 xl:space-x-10 nav-menu"
+          >
+            <!-- Home link -->
+            <li class="nav-item">
+              <a
+                href="/"
+                class="py-2 text-lg font-medium duration-200 ease-in-out rounded-md md:px-3 text-zinc-500 hover:text-zinc-100 md:text-base lg:text-lg xl:text-xl"
+              >Home</a>
+            </li>
+
+            <!-- About Us link -->
+            <li class="nav-item">
+              <a
+                href="/"
+                class="py-2 text-lg font-medium duration-200 ease-in-out rounded-md md:px-3 text-zinc-500 hover:text-zinc-100 md:text-base lg:text-lg xl:text-xl"
+              >About Us</a>
+            </li>
+
+            <!-- Conditionally rendered link or button -->
+            {{#if logged_in}}
+              <li class="nav-item">
+                <button
+                  id="logout-button"
+                  class="py-2 text-lg font-medium duration-200 ease-in-out rounded-md md:px-3 text-zinc-500 hover:text-zinc-100 md:text-base lg:text-lg xl:text-xl"
+                >Logout</button>
+              </li>
+            {{else}}
+              <li class="nav-item">
+                <a
+                  href="/auth"
+                  class="py-2 text-lg font-medium duration-200 ease-in-out rounded-md md:px-3 text-zinc-500 hover:text-zinc-100 md:text-base lg:text-lg xl:text-xl"
+                >Login/Sign Up</a>
+              </li>
+            {{/if}}
+          </ul>
         </div>
       </div>
     </nav>
 
     {{{body}}}
     <script src="/js/logout.js"></script>
+    <script src="/js/hamburgerMenu.js"></script>
   </body>
 </html>
