@@ -61,6 +61,8 @@ li {
     height: 100%;
     text-align: center;
     transition: left 0.3s;
+    padding-top: 20px;
+    z-index: 10;
   }
 
   .nav-item {
@@ -69,5 +71,30 @@ li {
 
   .nav-menu.active {
     left: 0;
+  }
+}
+
+/* Profile dropdown */
+
+#profile-dropdown {
+  transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+  transform: scaleY(0); /* Initially scaled to 0 (not visible) */
+  transform-origin: top; /* The dropdown expands downwards */
+  visibility: hidden; /* Initially hidden */
+}
+
+#profile-dropdown.show {
+  transform: scaleY(1); /* Scaled to full size (visible) */
+  visibility: visible; /* Make it visible */
+}
+
+#profile-button:focus + #profile-dropdown,
+#profile-dropdown:hover {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none;
   }
 }
