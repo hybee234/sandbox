@@ -550,10 +550,6 @@ video {
   top: 65px;
 }
 
-.top-\[70px\] {
-  top: 70px;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -958,10 +954,6 @@ li {
 }
 
 @media (min-width: 768px) {
-  .md\:top-\[65px\] {
-    top: 65px;
-  }
-
   .md\:block {
     display: block;
   }
