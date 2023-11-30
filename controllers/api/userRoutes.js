@@ -72,6 +72,27 @@ router.post('/logout', (req, res) => {
   }
 });
 
+// DELETE route: deletes a user by user_id
+router.delete('/:user_id', async (req, res) => {
+  try {
+    const userData = await User.destroy({
+      where: {
+        user_id: req.params.user_id, // Using the user_id from the URL parameter
+      },
+    });
+
+    if (!userData) {
+      res.status(404).json({ message: 'No user found with this id!' });
+      return;
+    }
+
+    res.status(200).json({ message: 'User successfully deleted' });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+
 
 
 // Export the router for use in the main app
