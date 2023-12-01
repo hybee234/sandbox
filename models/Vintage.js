@@ -23,7 +23,8 @@ Vintage.init(
             type: DataTypes.INTEGER            
         },
         vintage_total: {
-            type: DataTypes.INTEGER            
+            type: DataTypes.INTEGER,
+            defaultValue: 0,            
         },
         active_ind: {
             type: DataTypes.INTEGER,
