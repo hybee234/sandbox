@@ -1,9 +1,18 @@
 const router = require('express').Router();
 const { Brand } = require('../../models'); // Update the path to correctly point to Brand.js
+const checkBrandId = require('../../utils/checkBrandId');
 
-// http://localhost:3001/api/brand/
+// Root: http://localhost:3001/api/brand/
+
 
 // GET - Route to render the homepage with Brand data
+
+    // API: http://localhost:3001/api/brand/
+
+    // Example : http://localhost:3001/api/wine/
+    //
+    // No JSON Body required
+
 router.get('/', async (req, res) => {
     try {
         // Fetch all active brands from the database with specified attributes
@@ -21,23 +30,46 @@ router.get('/', async (req, res) => {
         // });
     } catch (err) {
         console.error(err);
-        res.status(500).json(err);
+        res.status(500).json(err); // Status 500 - Internal Server Error
     }
 });
 
 
 // POST - Add a Brand 
+
+    // API: http://localhost:3001/api/brand
+
+    // Example : http://localhost:3001/api/brand
+    //
+    // Example JSON Body
+    //  {
+    //	    "brand_name" : "Diana Madeline",
+    //	    "active_ind" : 1	
+    //  }
+
 router.post('/', async (req, res) => {
     try {
         const postNewBrand = await Brand.create(req.body);
         res.status(200).json(postNewBrand);
+        // TODO: Refresh page to show changes
     } catch (err) {
-        res.status(400).json(err);
+        res.status(400).json(err); // Status 400 - Bad Request
     }
 });
 
 // PUT - Update Brand by ID
-router.put('/:brand_id', async (req, res) => {
+
+    // API: http://localhost:3001/api/brand
+
+    // Example : http://localhost:3001/api/brand
+    //
+    // Example JSON Body
+    //  {
+    //	    "brand_name" : "Diana Madeline",
+    //	    "active_ind" : 1	
+    //  }
+
+router.put('/:brand_id', checkBrandId, async (req, res) => {
     try {
         const putBrand = await Brand.update( 
             {
@@ -50,14 +82,22 @@ router.put('/:brand_id', async (req, res) => {
                 },
             }        
         )
-        res.json(`Brand ID ${req.params.brand_id} updated`);
+        res.status(200).json(`Brand ID ${req.params.brand_id} updated`);
+        // TODO: Refresh page to show changes
     } catch (err) {
         res.status(500).json(err);
     }        
 });
 
 // PUT - Soft Delete Brand by ID
-router.put('/inactivate/:brand_id', async (req, res) => {
+
+    // API: http://localhost:3001/api/brand/inactivate/:brand_id
+
+    // Example : http://localhost:3001/api/brand/inactivate/6
+    //
+    // No JSON Body Required
+
+router.put('/inactivate/:brand_id', checkBrandId, async (req, res) => {
     try {
         const inactivateBrand = await Brand.update( 
             {                
@@ -69,7 +109,8 @@ router.put('/inactivate/:brand_id', async (req, res) => {
                 },
             }        
         )
-        res.json(`Brand ID ${req.params.brand_id} inactivated`);
+        res.status(200).json(`Brand ID ${req.params.brand_id} inactivated`);
+        // TODO: Refresh page to show changes 
     } catch (err) {
         res.status(500).json(err);
     }        
