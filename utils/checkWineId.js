@@ -4,11 +4,8 @@ const { Wine } = require('../models');
 const checkWineId = async (req, res, next) => {
     const wineIdExist = await Wine.findOne ({where: {wine_id: req.params.wine_id}})
         if (wineIdExist) {
-            // console.log ("WineIDExists!")
             next();
-
-        } else {   
-            // console.log ("WineID Does not Exist!")             
+        } else {       
             res.status(400).json({ message: `Wine_ID ${req.params.wine_id} does not exist, please try again` }); // Status 400 = Bad Request
         return;
     }

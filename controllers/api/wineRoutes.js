@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Wine } = require('../../models'); 
+const { Vintage, Wine } = require('../../models'); 
 const checkBrandId = require('../../utils/checkBrandId');
 const checkWineId = require('../../utils/checkWineId');
 
@@ -17,9 +17,10 @@ const checkWineId = require('../../utils/checkWineId');
 
 router.get('/:brand_id', checkBrandId, async (req, res) => {
     try {
-        // Fetch all active brands from the database with specified attributes
+        // Fetch all active Wines from the database with specified attributes
         const getActiveWines = await Wine.findAll({
-            attributes: ['wine_id', 'wine_name', 'active_ind', 'brand_id'], // Specify the columns to fetch
+            //attributes: ['wine_id', 'wine_name', 'active_ind', 'brand_id'], // Specify the columns to fetch
+            include: [{ model: Vintage }],
             where: {
                 active_ind: 1, // This will only include brands where active_ind is 1
                 brand_id: req.params.brand_id  // where brand ID matches the brand ID in URL
@@ -96,7 +97,7 @@ router.put('/:wine_id', checkWineId, async (req, res) => {
     }        
 });
 
-// PUT - Soft Delete Brand by ID
+// PUT - Soft Delete Wine by ID
 
     // API: http://localhost:3001/api/wine/inactivate/:wine_id
 
@@ -107,7 +108,7 @@ router.put('/:wine_id', checkWineId, async (req, res) => {
 
 router.put('/inactivate/:wine_id', checkWineId, async (req, res) => {
     try {
-        // Apply PUT (Inactivate) request toWine ID
+        // Apply PUT (Inactivate) request to Wine ID
         const inactivateWine = await Wine.update( 
             {                
                 active_ind: 0,      
