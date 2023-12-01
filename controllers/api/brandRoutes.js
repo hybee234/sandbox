@@ -4,7 +4,6 @@ const checkBrandId = require('../../utils/checkBrandId');
 
 // Root: http://localhost:3001/api/brand/
 
-
 // GET - Route to render the homepage with Brand data
 
     // API: http://localhost:3001/api/brand/
@@ -15,7 +14,7 @@ const checkBrandId = require('../../utils/checkBrandId');
 
 router.get('/', async (req, res) => {
     try {
-        // Fetch all active brands from the database with specified attributes
+        // GET all active Brands 
         const getActiveBrand = await Brand.findAll({
             attributes: ['brand_name'], // Specify the columns to fetch
             where: {
@@ -34,7 +33,6 @@ router.get('/', async (req, res) => {
     }
 });
 
-
 // POST - Add a Brand 
 
     // API: http://localhost:3001/api/brand
@@ -49,6 +47,7 @@ router.get('/', async (req, res) => {
 
 router.post('/', async (req, res) => {
     try {
+        // POST new Brand to Brand Table
         const postNewBrand = await Brand.create(req.body);
         res.status(200).json(postNewBrand);
         // TODO: Refresh page to show changes
@@ -57,7 +56,7 @@ router.post('/', async (req, res) => {
     }
 });
 
-// PUT - Update Brand by ID
+// PUT - Update Brand by Brand ID
 
     // API: http://localhost:3001/api/brand
 
@@ -71,6 +70,7 @@ router.post('/', async (req, res) => {
 
 router.put('/:brand_id', checkBrandId, async (req, res) => {
     try {
+        // PUT - Update Brand by Brand ID
         const putBrand = await Brand.update( 
             {
                 brand_name: req.body.brand_name,
@@ -89,7 +89,7 @@ router.put('/:brand_id', checkBrandId, async (req, res) => {
     }        
 });
 
-// PUT - Soft Delete Brand by ID
+// PUT - Soft Delete Brand by Brand ID
 
     // API: http://localhost:3001/api/brand/inactivate/:brand_id
 
@@ -99,6 +99,7 @@ router.put('/:brand_id', checkBrandId, async (req, res) => {
 
 router.put('/inactivate/:brand_id', checkBrandId, async (req, res) => {
     try {
+        // PUT - Soft Delete Brand by Brand ID
         const inactivateBrand = await Brand.update( 
             {                
                 active_ind: 0,      

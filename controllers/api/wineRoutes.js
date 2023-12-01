@@ -17,7 +17,7 @@ const checkWineId = require('../../utils/checkWineId');
 
 router.get('/:brand_id', checkBrandId, async (req, res) => {
     try {
-        // Fetch all active Wines from the database with specified attributes
+        // GET all active Wines and attached Vintages under target Brand_ID
         const getActiveWines = await Wine.findAll({
             //attributes: ['wine_id', 'wine_name', 'active_ind', 'brand_id'], // Specify the columns to fetch
             include: [{ model: Vintage }],
@@ -48,6 +48,7 @@ router.get('/:brand_id', checkBrandId, async (req, res) => {
 
 router.post('/:brand_id', checkBrandId, async (req, res) => {
     try {
+        // POST new Wine under Brand ID
         const postNewWine = await Wine.create(
             {
                 wine_name: req.body.wine_name,
@@ -61,7 +62,7 @@ router.post('/:brand_id', checkBrandId, async (req, res) => {
     }
 });
 
-// PUT - Update Wine by ID
+// PUT - Update Wine by Wine ID
 
     // API: http://localhost:3001/api/wine/:wine_id
 
@@ -77,7 +78,7 @@ router.post('/:brand_id', checkBrandId, async (req, res) => {
 
 router.put('/:wine_id', checkWineId, async (req, res) => {
     try {
-        // Apply PUT request to Wine
+        // PUT - Update Wine by Wine ID
         const putWine = await Wine.update( 
             {
                 wine_name: req.body.wine_name,
@@ -97,7 +98,7 @@ router.put('/:wine_id', checkWineId, async (req, res) => {
     }        
 });
 
-// PUT - Soft Delete Wine by ID
+// PUT - Soft Delete Wine by Wine ID
 
     // API: http://localhost:3001/api/wine/inactivate/:wine_id
 
@@ -108,7 +109,7 @@ router.put('/:wine_id', checkWineId, async (req, res) => {
 
 router.put('/inactivate/:wine_id', checkWineId, async (req, res) => {
     try {
-        // Apply PUT (Inactivate) request to Wine ID
+        // PUT - Soft Delete Wine by Wine ID
         const inactivateWine = await Wine.update( 
             {                
                 active_ind: 0,      

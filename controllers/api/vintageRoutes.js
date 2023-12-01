@@ -17,7 +17,7 @@ const checkWineId = require('../../utils/checkWineId');
 
 router.get('/:wine_id', checkWineId, async (req, res) => {
     try {
-        // Fetch all active Vintages from the database with specified attributes
+        // Get all active Vintages under target Wine_ID
         const getActiveVintages = await Vintage.findAll({
             //attributes: ['wine_id', 'wine_name', 'active_ind', 'brand_id'], // Specify the columns to fetch
             where: {
@@ -32,7 +32,7 @@ router.get('/:wine_id', checkWineId, async (req, res) => {
     }
 });
 
-// POST - Add a new Vintage to Wine ID
+// POST - Add a Vintage to Wine ID
 
     // API: http://localhost:3001/api/vintage/:wine_id
 
@@ -47,10 +47,11 @@ router.get('/:wine_id', checkWineId, async (req, res) => {
     //      active_ind: 1,
     //      wine_id: req.params.wine_id     
     //  }
-    //  vintage_total will default to zero
+    //  Note: vintage_total will default to zero
 
 router.post('/:wine_id', checkWineId, async (req, res) => {
     try {
+        // POST new Vintage under Wine ID
         const postNewVintage = await Vintage.create(
             {
                 vintage: req.body.vintage,
@@ -66,7 +67,7 @@ router.post('/:wine_id', checkWineId, async (req, res) => {
     }
 });
 
-// PUT - Update Vintage by ID
+// PUT - Update Vintage by Vintage ID
 
     // API: http://localhost:3001/api/vintage/:vintage_id
 
@@ -83,7 +84,7 @@ router.post('/:wine_id', checkWineId, async (req, res) => {
 
 router.put('/:vintage_id', checkVintageId, async (req, res) => {
     try {
-        // Apply PUT request to Vintage
+        // PUT - Update Vintage by Vintage ID
         const putVintage = await Vintage.update( 
             {
                 vintage: req.body.vintage,
@@ -105,7 +106,7 @@ router.put('/:vintage_id', checkVintageId, async (req, res) => {
     }        
 });
 
-// PUT - Soft Delete Vintage by ID
+// PUT - Soft Delete Vintage by Vintage ID
 
     // API: http://localhost:3001/api/vintage/inactivate/:vintage_id
 
@@ -116,7 +117,7 @@ router.put('/:vintage_id', checkVintageId, async (req, res) => {
 
 router.put('/inactivate/:vintage_id', checkVintageId, async (req, res) => {
     try {
-        // Apply PUT (Inactivate) request to Vintage ID
+        // PUT - Soft Delete Vintage by Vintage ID
         const inactivateVintage = await Vintage.update( 
             {                
                 active_ind: 0,      

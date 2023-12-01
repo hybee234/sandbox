@@ -2,7 +2,6 @@ const router = require('express').Router();
 const { Transaction } = require('../../models'); 
 const checkTransactionId = require('../../utils/checkTransactionId');
 const checkVintageId = require('../../utils/checkVintageId');
-const checkWineId = require('../../utils/checkWineId');
 
 // Root: http://localhost:3001/api/vintage/
 
@@ -17,7 +16,7 @@ const checkWineId = require('../../utils/checkWineId');
 
 router.get('/:vintage_id', checkVintageId, async (req, res) => {
     try {
-        // Fetch all active Transactions from the database 
+        // GET all active Transactions under target Vintage_ID
         const getActiveTransactions = await Transaction.findAll({
             //attributes: ['wine_id', 'wine_name', 'active_ind', 'brand_id'], // Specify the columns to fetch
             where: {
@@ -32,7 +31,7 @@ router.get('/:vintage_id', checkVintageId, async (req, res) => {
     }
 });
 
-// POST - Add a new Transaction to Vintage ID
+// POST - Add a Transaction to Vintage ID
 
     // API: http://localhost:3001/api/transaction/:vintage_id
 
@@ -49,11 +48,11 @@ router.get('/:vintage_id', checkVintageId, async (req, res) => {
 	// 	    "active_ind": 1,
 	// 	    "user_id": 1,
 	//  },
-
-    //  vintage_total will default to zero
+    // Can have null qty_in, qty_out, cost, notes
 
 router.post('/:vintage_id', checkVintageId, async (req, res) => {
     try {
+        // POST new transaction under Vintage ID
         const postNewTransaction = await Transaction.create(
             {
                 cost: req.body.cost,
@@ -73,7 +72,7 @@ router.post('/:vintage_id', checkVintageId, async (req, res) => {
     }
 });
 
-// PUT - Update Tranasction by transaction ID
+// PUT - Update Tranasction by Transaction ID
 
     // API: http://localhost:3001/api/transaction/:transaction_id
 
@@ -93,7 +92,7 @@ router.post('/:vintage_id', checkVintageId, async (req, res) => {
 
 router.put('/:transaction_id', checkTransactionId, async (req, res) => {
     try {
-        // Apply PUT request to Transaction
+        // PUT - Update Tranasction by Transaction ID
         const putTransaction = await Transaction.update( 
             {
                 cost: req.body.cost,
@@ -119,7 +118,7 @@ router.put('/:transaction_id', checkTransactionId, async (req, res) => {
     }        
 });
 
-// PUT - Soft Delete Transaction by ID
+// PUT - Soft Delete Transaction by Transaction ID
 
     // API: http://localhost:3001/api/transaction/inactivate/:transaction_id
 
@@ -130,7 +129,7 @@ router.put('/:transaction_id', checkTransactionId, async (req, res) => {
 
 router.put('/inactivate/:transaction_id', checkTransactionId, async (req, res) => {
     try {
-        // Apply PUT (Inactivate) request to Tranasction ID
+        // PUT - Soft Delete Transaction by Transaction ID
         const inactivateTransaction = await Transaction.update( 
             {                
                 active_ind: 0,      
