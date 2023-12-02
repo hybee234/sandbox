@@ -1,49 +1,51 @@
 const router = require('express').Router();
-const { Brand } = require('../../models'); 
+const { Brand } = require('../../models');
+const checkBrandId = require('../../utils/checkBrandId');
 
 // Root: http://localhost:3001/api/brand/
 
 // GET - Route to render the homepage with Brand data
 
-    // API: http://localhost:3001/api/brand/
+// API: http://localhost:3001/api/brand/
 
-    // Example : http://localhost:3001/api/wine/
-    //
-    // No JSON Body required
+// Example : http://localhost:3001/api/wine/
+//
+// No JSON Body required
 
 router.get('/', async (req, res) => {
     try {
-        // GET all active Brands 
         const getActiveBrand = await Brand.findAll({
-            attributes: ['brand_name'], // Specify the columns to fetch
-            where: {
-                active_ind: 1 // This will only include brands where active_ind is 1
-            }
+            attributes: ['brand_name'],
+            where: { active_ind: 1 }
         });
-        const brands = getActiveBrand.map((brand) => brand.get({ plain: true }));
+        const brands = getActiveBrand.map(brand => brand.get({ plain: true }));
 
-        res.status(200).json(getActiveBrand);   // To view in insomnia
-        res.render('homepage', {
-            brands,
-            loggedIn: req.session.loggedIn
-        });
+        // Check if the request accepts JSON
+        if (req.headers.accept && req.headers.accept.includes('application/json')) {
+            res.json(brands); // Send JSON response
+        } else {
+            res.render('homepage', {
+                brands,
+                loggedIn: req.session.loggedIn
+            }); // Render HTML page
+        }
     } catch (err) {
         console.error(err);
-        res.status(500).json(err); // Status 500 - Internal Server Error
+        res.status(500).json({ message: 'Internal Server Error', error: err });
     }
 });
 
 // POST - Add a Brand 
 
-    // API: http://localhost:3001/api/brand
+// API: http://localhost:3001/api/brand
 
-    // Example : http://localhost:3001/api/brand
-    //
-    // Example JSON Body
-    //  {
-    //	    "brand_name" : "Diana Madeline",
-    //	    "active_ind" : 1	
-    //  }
+// Example : http://localhost:3001/api/brand
+//
+// Example JSON Body
+//  {
+//	    "brand_name" : "Diana Madeline",
+//	    "active_ind" : 1	
+//  }
 
 router.post('/', async (req, res) => {
     try {
@@ -58,15 +60,15 @@ router.post('/', async (req, res) => {
 
 // PUT - Update Brand by Brand ID
 
-    // API: http://localhost:3001/api/brand
+// API: http://localhost:3001/api/brand
 
-    // Example : http://localhost:3001/api/brand
-    //
-    // Example JSON Body
-    //  {
-    //	    "brand_name" : "Diana Madeline",
-    //	    "active_ind" : 1	
-    //  }
+// Example : http://localhost:3001/api/brand
+//
+// Example JSON Body
+//  {
+//	    "brand_name" : "Diana Madeline",
+//	    "active_ind" : 1	
+//  }
 
 router.put('/:brand_id', checkBrandId, async (req, res) => {
     try {
@@ -90,11 +92,11 @@ router.put('/:brand_id', checkBrandId, async (req, res) => {
 
 // PUT - Soft Delete Brand by Brand ID
 
-    // API: http://localhost:3001/api/brand/inactivate/:brand_id
+// API: http://localhost:3001/api/brand/inactivate/:brand_id
 
-    // Example : http://localhost:3001/api/brand/inactivate/6
-    //
-    // No JSON Body Required
+// Example : http://localhost:3001/api/brand/inactivate/6
+//
+// No JSON Body Required
 
 router.put('/inactivate/:brand_id', checkBrandId, async (req, res) => {
     try {
