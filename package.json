@@ -1,9 +1,9 @@
 {
-  "name": "cellar-vault",
+  "name": "sandbox",
   "version": "1.0.0",
   "engines": {
     "start": "node server.js",
-    "node": "18.18.2"
+    "node": "18.X"
     },
   "description": "",
   "main": "server.js",
