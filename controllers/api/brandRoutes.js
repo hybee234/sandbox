@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Brand } = require('../../models'); // Update the path to correctly point to Brand.js
+const { Brand } = require('../../models'); 
 
 // http://localhost:3001/api/brand/
 
@@ -14,11 +14,12 @@ router.get('/', async (req, res) => {
             }
         });
         const brands = getActiveBrand.map((brand) => brand.get({ plain: true }));
+
         res.status(200).json(getActiveBrand);   // To view in insomnia
-        // res.render('homepage', {
-        //     brands,
-        //     loggedIn: req.session.loggedIn
-        // });
+        res.render('homepage', {
+            brands,
+            loggedIn: req.session.loggedIn
+        });
     } catch (err) {
         console.error(err);
         res.status(500).json(err);
@@ -39,40 +40,40 @@ router.post('/', async (req, res) => {
 // PUT - Update Brand by ID
 router.put('/:brand_id', async (req, res) => {
     try {
-        const putBrand = await Brand.update( 
+        const putBrand = await Brand.update(
             {
                 brand_name: req.body.brand_name,
-                active_ind: req.body.active_ind,      
+                active_ind: req.body.active_ind,
             },
             {
-                where: {  
-                    brand_id: req.params.brand_id,                    
+                where: {
+                    brand_id: req.params.brand_id,
                 },
-            }        
+            }
         )
         res.json(`Brand ID ${req.params.brand_id} updated`);
     } catch (err) {
         res.status(500).json(err);
-    }        
+    }
 });
 
 // PUT - Soft Delete Brand by ID
 router.put('/inactivate/:brand_id', async (req, res) => {
     try {
-        const inactivateBrand = await Brand.update( 
-            {                
-                active_ind: 0,      
+        const inactivateBrand = await Brand.update(
+            {
+                active_ind: 0,
             },
             {
-                where: {  
-                    brand_id: req.params.brand_id,                    
+                where: {
+                    brand_id: req.params.brand_id,
                 },
-            }        
+            }
         )
         res.json(`Brand ID ${req.params.brand_id} inactivated`);
     } catch (err) {
         res.status(500).json(err);
-    }        
+    }
 });
 
 module.exports = router;
