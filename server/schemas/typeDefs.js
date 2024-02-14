@@ -1,32 +1,144 @@
+const { GraphQLScalarType, Kind } = require("graphql");
+//import dateScalar from './scalers/date'
+
 const typeDefs = `
-  type Profile {
-    _id: ID
-    name: String
-    email: String
-    password: String
-    skills: [String]!
-  }
+    scalar Date  
 
-  type Auth {
-    token: ID!
-    profile: Profile
-  }
+    type User {
+        _id: ID
+        username: String
+        email: String
+        security: String
+    }
 
-  type Query {
-    profiles: [Profile]!
-    profile(profileId: ID!): Profile
-    # Because we have the context functionality in place to check a JWT and decode its data, we can use a query that will always find and return the logged in user's data
-    me: Profile
-  }
+    type Task {
+        _id: ID
+        created_dt: Date
+        title: String
+        summary: String
+        complete_flag: Boolean
+        complete_dt: Date
+        review_dt: Date
+        stakeholder: String
+        assigned: User
+        status_macro: String
+        status_micro: String
+        note: [Note]
+        priority: Priority   
+    }
 
-  type Mutation {
-    addProfile(name: String!, email: String!, password: String!): Auth
-    login(email: String!, password: String!): Auth
+    type Note {
+        note_id: ID
+        note_text: String
+        note_type: String
+        note_author: User
+        note_dt: Date
+    }
 
-    addSkill(profileId: ID!, skill: String!): Profile
-    removeProfile: Profile
-    removeSkill(skill: String!): Profile
-  }
+    type Priority {
+        priority_id: ID
+        pipeline_number: Int
+        business_driven: Boolean
+        focus: Boolean
+        category: Int
+        important: Boolean
+        urgent: Boolean
+        high_effort: Boolean
+        comment: String
+    }
+
+    type Auth {
+        token: ID!
+        user: User
+    } 
+
+    #Stripe
+    type Checkout {
+        session: ID
+    }
+
+    #Stripe
+    input ProductInput {
+        _id: ID
+        purchaseQuantity: Int
+        name: String
+        image: String
+        price: Float
+        quantity: Int
+    }
+
+    type Query {
+        users: [User]
+        tasks: [Task]
+        me: User
+        tasksByAssignedId(assigned: ID!): [Task]
+        taskByTaskId (_id: ID!): Task
+
+        #Stripe
+        checkout(products: ProductInput): Checkout
+    }
+
+    input userInput {
+        _id: ID
+        username: String
+        email: String
+        security: String
+    }
+
+    input priorityUserInput {
+        priority_id: ID
+        business_driven: Boolean
+        focus: Boolean        
+        important: Boolean
+        urgent: Boolean
+        high_effort: Boolean
+        category: Int
+        pipeline_number: Int
+        comment: String
+    }
+
+    input noteUserInput {
+        note_dt: Date
+        note_author: userInput
+        note_type: String
+        note_text: String
+        _id: ID
+    }
+
+    type Mutation {
+        addUser(username: String! email: String! password: String!): Auth
+        login(email: String password: String!): Auth
+        completeTask( id: ID!): Task
+        assignUser (taskId: ID! assigned: userInput): Task
+        updatePipelineNumber (taskId: ID! pipeline_number: Int! priority: priorityUserInput ): Task
+        updateReviewDtFromTaskList (taskId:ID!, review_dt: Date): Task
+        addNote(noteUserInput: noteUserInput, taskId:ID!): Task
+
+        updateTaskByTaskId (
+            taskId: ID!
+            created_dt: Date
+            review_dt: Date
+            title: String
+            summary: String
+            stakeholder: String
+            status_macro: String
+            status_micro: String
+            priority: priorityUserInput
+            note: noteUserInput
+        ): Task
+
+        addTask(
+            created_dt: Date
+            review_dt: Date
+            title: String
+            summary: String
+            stakeholder: String
+            status_macro: String
+            status_micro: String
+            priority: priorityUserInput
+            assigned: userInput
+        ) : Task
+    }
 `;
 
 module.exports = typeDefs;

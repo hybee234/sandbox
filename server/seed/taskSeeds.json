@@ -1,0 +1,3976 @@
+ [
+      {
+        "_id": "65b8dba1b768a37702f656b4",
+        "created_dt": "2023-11-01T00:00:00.000Z",
+        "title": "Monthly PBS content update and mapping",
+        "summary": "Monthly PBS update is required to keep the prescription entitlements up to date",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-03T00:00:00.000Z",
+        "stakeholder": "BAU",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [
+          {
+            "note_dt": "2023-12-01T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe1e",
+            "note_text": "December 2023 done",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2023-12-31T13:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe1f",
+            "note_text": "January 2024 done",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-02-01T01:24:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe20",
+            "note_text": "December 2023 done",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5c4a6683813ffa3887cc7",
+          "pipeline_number": null,
+          "business_driven": null,
+          "focus": null,
+          "category": null,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c61885cc970b846a9da699",
+        "created_dt": "2024-02-09T12:20:21.222Z",
+        "title": "Modify Physiotherapy review form",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-03-10T00:00:00.000Z",
+        "stakeholder": "Physiotherapy",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad7c8dd94c4406d99f9ba",
+          "pipeline_number": 999,
+          "business_driven": true,
+          "focus": false,
+          "category": 4,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },       
+      {
+        "_id": "65c607597bfc72561241797b",
+        "created_dt": "2024-02-09T11:07:05.111Z",
+        "title": "Why do i ahve to refresh to see new tasks?",
+        "summary": "123",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-09T11:07:05.111Z",
+        "stakeholder": "123",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c607597bfc72561241797c",
+          "pipeline_number": 100,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },    
+      {
+        "_id": "65c61d9ecc970b846a9da75d",
+        "created_dt": "2024-02-09T12:42:06.669Z",
+        "title": "DTV Monthly Audit",
+        "summary": "Downtime viewers are a view-only back up solution for the EHR system. These laptops require regular checks to ensure they are functioning when the time comes to enact business continuity processes.\n\nOne quarter of the DTVs are audited each month (4 month cycle to complete auditing all laptops)",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-01-11T00:00:00.000Z",
+        "stakeholder": "BAU",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [
+          {
+            "note_dt": "2024-02-12T10:11:12.784Z",
+            "note_id": "65c9eec00f49db430a428c30",
+            "note_text": "December 2023 checks done",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-02-12T10:11:26.061Z",
+            "note_id": "65c9eece0f49db430a428c34",
+            "note_text": "January 2024 checks done\n",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-02-12T10:11:34.152Z",
+            "note_id": "65c9eed60f49db430a428c38",
+            "note_text": "February 2024 checks done",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c9f2430f49db430a428cbf",
+          "pipeline_number": 3,
+          "business_driven": null,
+          "focus": null,
+          "category": null,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeef"
+        }
+      },   
+      {
+        "_id": "65c607bb7bfc72561241797f",
+        "created_dt": "2024-02-09T11:08:43.539Z",
+        "title": "Procure an electronic Oncology Solution for outpatient chemotherapy",
+        "summary": "Executive team require a business case to progress this initiative.\nNeed externally contracted PM, BA, SME to collate",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-14T00:00:00.000Z",
+        "stakeholder": "Clinical Dir Oncology",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [
+          {
+            "note_dt": "2024-02-12T10:20:27.962Z",
+            "note_id": "65c9f0eb0f49db430a428c90",
+            "note_text": "Breifing paper written and submitted for executive commitee January 2024",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c9f5ba0f49db430a428d3d",
+          "pipeline_number": 3,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },      
+      {
+        "_id": "65c62331cc970b846a9da7b6",
+        "created_dt": "2024-02-09T13:05:53.177Z",
+        "title": "Contract Update - Pay for additional licenses for iPM",
+        "summary": "Business has grown, more licenses are required to continue using this application",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-17T00:00:00.000Z",
+        "stakeholder": "iPM team",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c9f5aa0f49db430a428d35",
+          "pipeline_number": 100,
+          "business_driven": false,
+          "focus": false,
+          "category": 2,
+          "important": false,
+          "urgent": false,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },    
+      {
+        "_id": "65c63a8f14b8b3381deadcea",
+        "created_dt": "2024-02-09T14:45:35.482Z",
+        "title": "Modify neurological examination iView section",
+        "summary": "Data elements are there but separated, poor user experience. Aim is to bring elements together to simplify",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-22T00:00:00.000Z",
+        "stakeholder": "Dept of Surgery",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad72ddd94c4406d99f981",
+          "pipeline_number": 10,
+          "business_driven": true,
+          "focus": false,
+          "category": 4,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeef"
+        }
+      },
+      {
+        "_id": "65c62299cc970b846a9da793",
+        "created_dt": "2024-02-09T13:03:21.527Z",
+        "title": "New Radiology note for technicians to use",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-03-10T00:00:00.000Z",
+        "stakeholder": "Radiology",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad663dd94c4406d99f939",
+          "pipeline_number": 100,
+          "business_driven": true,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c6440d9325732d8cce97f9",
+        "created_dt": "2024-02-09T15:26:05.318Z",
+        "title": "Update Team Care Placemat\n",
+        "summary": "Update Team Care Placemat (Immunisation, Mandatory Training Records)\nDone week2 of every month so that Manager Dashboard can capture the previous month.",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-15T00:00:00.000Z",
+        "stakeholder": "BAU",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c9f3740f49db430a428cf2",
+          "pipeline_number": 1,
+          "business_driven": false,
+          "focus": false,
+          "category": 4,
+          "important": true,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c6449e9325732d8cce9805",
+        "created_dt": "2024-02-09T15:28:30.028Z",
+        "title": "Write CCL for Results to Endorse",
+        "summary": "Compliance to results to endorse workflows are poorly adhered to. Writing the CCL enables the business to run queries to estalish the magnitude of the issue and develop plans on how to mitigate some of the risks around poor compliance.",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-09T00:00:00.000Z",
+        "stakeholder": "Dept of Medicine",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c9f51d0f49db430a428d25",
+          "pipeline_number": 1,
+          "business_driven": true,
+          "focus": false,
+          "category": 4,
+          "important": false,
+          "urgent": false,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efef0"
+        }
+      },
+      {
+        "_id": "65c7196d0c318b28c4a5b174",
+        "created_dt": "2024-02-10T06:36:29.755Z",
+        "title": "Write CCL to query Co-sign orders",
+        "summary": "Doctor compliance to countersign co-sign orders is known to be low, this CCL enables auditing the process to determine where mitigations can be implemented to reduce risk to business.",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-03-03T00:00:00.000Z",
+        "stakeholder": "Dept of Medicine",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c9f50f0f49db430a428d1d",
+          "pipeline_number": 10,
+          "business_driven": true,
+          "focus": false,
+          "category": 4,
+          "important": false,
+          "urgent": false,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efef0"
+        }
+      },
+      {
+        "_id": "65c71dac0c318b28c4a5b1ce",
+        "created_dt": "2024-02-10T06:54:36.990Z",
+        "title": "Roster - Approve Leave ",
+        "summary": "Weekly on Thursdays.\n\nPolicy is to respond to request in 10 working days",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-09T00:00:00.000Z",
+        "stakeholder": "BAU",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c9f2f10f49db430a428cea",
+          "pipeline_number": 2,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c71e410c318b28c4a5b1e3",
+        "created_dt": "2024-02-10T06:57:05.597Z",
+        "title": "Pharmacy  Formulary Check",
+        "summary": "Compare Cerner EHR Formulary against Pharmacy Department Formulary and build new medications into the system",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-03-01T00:00:00.000Z",
+        "stakeholder": "BAU",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [
+          {
+            "note_dt": "2024-02-12T10:14:14.698Z",
+            "note_id": "65c9ef760f49db430a428c68",
+            "note_text": "Decemeber 2023 Done",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-02-12T10:14:50.662Z",
+            "note_id": "65c9ef9a0f49db430a428c6c",
+            "note_text": "January 2024 Done",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c9f26a0f49db430a428cd9",
+          "pipeline_number": 234,
+          "business_driven": null,
+          "focus": null,
+          "category": null,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efef0"
+        }
+      },
+      {
+        "_id": "65c71f350c318b28c4a5b1f1",
+        "created_dt": "2024-02-10T07:01:09.216Z",
+        "title": "Procure Electronic Patient Flow Solution",
+        "summary": "Business needs an organisation wide solution to manage bed access and demand across the hospital. Need to start this off",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-16T00:00:00.000Z",
+        "stakeholder": "Exec Dir Operations",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [
+          {
+            "note_dt": "2024-02-12T10:34:36.375Z",
+            "note_id": "65c9f43c0f49db430a428d02",
+            "note_text": "Briefing paper to Digital Health Executive Committee written to request funding to perform implementation planning study",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-02-12T10:34:47.558Z",
+            "note_id": "65c9f4470f49db430a428d06",
+            "note_text": "Procurement engaged to progress with open tender process",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c9f4480f49db430a428d0a",
+          "pipeline_number": 4,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c71fae0c318b28c4a5b204",
+        "created_dt": "2024-02-10T07:03:10.627Z",
+        "title": "Theatre Management/Anaesthetics/Biomedical Device RFI. WFW: Need to paint clearer picture of whole project",
+        "summary": "6 months\nLead: $80K\nPM: $110,500  @ ($850/day)\nBA: $97500 @ ($750/day)",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-23T00:00:00.000Z",
+        "stakeholder": "Test6",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [
+          {
+            "note_dt": "2024-02-12T10:44:55.596Z",
+            "note_id": "65c9f6a70f49db430a428d6c",
+            "note_text": "Paper for pre-projet team rejected. Shifting strategy to IPS instead. Have emailed Ann maree for quote for IPS",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65cad766dd94c4406d99f99e",
+          "pipeline_number": 6,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c767b403d6b94344d608e2",
+        "created_dt": "2024-02-10T12:10:28.881Z",
+        "title": "New MH Form",
+        "summary": "Mental health with like risk assessments and forms developed for use in ED for rapid assessments of incoming patients",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-11T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad724dd94c4406d99f974",
+          "pipeline_number": 3,
+          "business_driven": true,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c71d850c318b28c4a5b1c0",
+        "created_dt": "2024-02-10T06:53:57.042Z",
+        "title": "Check Excessive Leave (H600)",
+        "summary": "Performed monthly in week 4 - check to make sure staff do not have excessive ARL, ADO hours.",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-10T06:53:57.042Z",
+        "stakeholder": "BAU",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c9f3b60f49db430a428cfa",
+          "pipeline_number": 10,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c7757cec60e4ddae2ead17",
+        "created_dt": "2024-02-10T13:09:16.301Z",
+        "title": "Internal Audit - User access control process to be established.",
+        "summary": "Internal audit requests this action",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-13T00:00:00.000Z",
+        "stakeholder": "Dietetics",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c9f64b0f49db430a428d5c",
+          "pipeline_number": 8,
+          "business_driven": true,
+          "focus": true,
+          "category": 3,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efef2"
+        }
+      },
+      {
+        "_id": "65c71c870c318b28c4a5b1b7",
+        "created_dt": "2024-02-10T06:49:43.425Z",
+        "title": "Returning Transfer Cross Facility Project - to Start post APAC and CSP upgrade (TI Works with Cerner)",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-22T00:00:00.000Z",
+        "stakeholder": "Digital Health",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c9f6850f49db430a428d64",
+          "pipeline_number": 9,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": false,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeef"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a26",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Organise implementation planning study with vendor.",
+        "summary": "",
+        "complete_flag": true,
+        "complete_dt": "2024-01-20T00:00:00.000Z",
+        "review_dt": "2024-01-14T00:00:00.000Z",
+        "stakeholder": "Operations",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe5f",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe60",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe61",
+          "pipeline_number": 3,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a42",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:31.478Z",
+        "review_dt": "2024-01-06T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe7f",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe80",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe81",
+          "pipeline_number": 2,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a51",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment formefsdfawefawefawef",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T10:14:08.810Z",
+        "review_dt": "2024-02-07T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efea3",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efea4",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5ddaa7fc69e1fda8e4a04",
+          "pipeline_number": 2,
+          "business_driven": false,
+          "focus": false,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeef"
+        }
+      },
+      {
+        "_id": "65c71e4a0c318b28c4a5b1e7",
+        "created_dt": "2024-02-10T06:57:14.033Z",
+        "title": "Contract - additional infrastructure required to support Cerner",
+        "summary": "Business has grown, number of users has increased significantly. Additional servers required to mitigate performance issues.",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-10T06:57:14.033Z",
+        "stakeholder": "123",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [
+          {
+            "note_dt": "2024-02-12T10:42:21.615Z",
+            "note_id": "65c9f60d0f49db430a428d4f",
+            "note_text": "Awaiting Invoice from HTS",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c9f60e0f49db430a428d53",
+          "pipeline_number": 2,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a19",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Organise implementation planning study with vendor.",
+        "summary": "",
+        "complete_flag": true,
+        "complete_dt": "2024-02-10T04:30:28.725Z",
+        "review_dt": "2024-02-13T00:00:00.000Z",
+        "stakeholder": "Operations",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe47",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe48",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-02-09T17:08:43.550Z",
+            "note_id": "65c65c1b22512b14872a3541",
+            "note_text": "Nice notes",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5a40b49a971fefc31c0e2",
+          "pipeline_number": 3,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeef"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a29",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Organise implementation planning study with vendor.",
+        "summary": "",
+        "complete_flag": true,
+        "complete_dt": "2024-01-20T00:00:00.000Z",
+        "review_dt": "2024-01-14T00:00:00.000Z",
+        "stakeholder": "Operations",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe6b",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe6c",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe6d",
+          "pipeline_number": 3,
+          "business_driven": true,
+          "focus": false,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a41",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:31.713Z",
+        "review_dt": "2024-01-11T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe7b",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe7c",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe7d",
+          "pipeline_number": 2,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a49",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T14:00:25.396Z",
+        "review_dt": "2024-01-02T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe9b",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe9c",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c60b6971fc7a23647c0395",
+          "pipeline_number": 3,
+          "business_driven": true,
+          "focus": false,
+          "category": 3,
+          "important": true,
+          "urgent": true,
+          "high_effort": false,
+          "comment": "unanimous decisionasdf by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c5ed6f69d9fec59c309860",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "Pharmacy Imprest Alignment Audit",
+        "summary": "Align Cerner Imprest settings with Pharmacy Department imprest",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-03-16T00:00:00.000Z",
+        "stakeholder": "BAU",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [],
+        "priority": {
+          "priority_id": "65c9f29a0f49db430a428ce2",
+          "pipeline_number": 1,
+          "business_driven": false,
+          "focus": false,
+          "category": null,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efef2"
+        }
+      },
+      {
+        "_id": "65c5f17b69d9fec59c309896",
+        "created_dt": "2024-02-09T09:33:47.247Z",
+        "title": "Create Physio progress note",
+        "summary": "Need new progress note to support COVID work conditions.",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:23.044Z",
+        "review_dt": "2024-02-09T09:33:47.247Z",
+        "stakeholder": "Physiotherapy",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [
+          {
+            "note_dt": "2024-02-09T10:13:54.175Z",
+            "note_id": "65c5fae2bb55ec74174d944b",
+            "note_text": "123123",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c603947bfc725612417948",
+          "pipeline_number": null,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a28",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Organise implementation planning study with vendor.",
+        "summary": "",
+        "complete_flag": true,
+        "complete_dt": "2024-01-20T00:00:00.000Z",
+        "review_dt": "2024-01-14T00:00:00.000Z",
+        "stakeholder": "Operations",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe67",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe68",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe69",
+          "pipeline_number": 3,
+          "business_driven": true,
+          "focus": false,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a909f9",
+        "created_dt": "2024-02-05T13:00:00.000Z",
+        "title": "Test Updated Title",
+        "summary": "Test Updated Summary",
+        "complete_flag": true,
+        "complete_dt": "2024-02-10T04:29:54.172Z",
+        "review_dt": "2024-03-16T00:00:00.000Z",
+        "stakeholder": "Pharmacy",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [
+          {
+            "note_dt": "2023-12-01T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe23",
+            "note_text": "December 2023 done",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-01T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe24",
+            "note_text": "January 2024 testing delayed - laptop being replaced.",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-02-09T05:56:56.044Z",
+            "note_id": "65c5bea8342a8e7fc99ac5e4",
+            "note_text": "test",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c603777bfc72561241793b",
+          "pipeline_number": null,
+          "business_driven": true,
+          "focus": true,
+          "category": 1,
+          "important": true,
+          "urgent": true,
+          "high_effort": null,
+          "comment": "Why can't I Update Assigned?"
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeef"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a44",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:31.333Z",
+        "review_dt": "2024-01-06T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe87",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe88",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe89",
+          "pipeline_number": 2,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a46",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T12:00:01.545Z",
+        "review_dt": "2024-01-18T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe8f",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe90",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c603e77bfc725612417960",
+          "pipeline_number": 2,
+          "business_driven": true,
+          "focus": false,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a03",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T12:01:29.722Z",
+        "review_dt": "2024-02-21T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe2d",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe2e",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe2f",
+          "pipeline_number": 2,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c723080c318b28c4a5b25c",
+        "created_dt": "2024-02-10T07:17:28.159Z",
+        "title": "Test10",
+        "summary": "Test10",
+        "complete_flag": true,
+        "complete_dt": "2024-02-10T13:55:22.936Z",
+        "review_dt": "2024-02-12T00:00:00.000Z",
+        "stakeholder": "Test10",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c77afde370b14f2ad74947",
+          "pipeline_number": 999,
+          "business_driven": true,
+          "focus": true,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c77af6e370b14f2ad7493f",
+        "created_dt": "2024-02-10T13:32:38.179Z",
+        "title": "Test Task",
+        "summary": "",
+        "complete_flag": true,
+        "complete_dt": "2024-02-10T13:58:38.679Z",
+        "review_dt": "2024-02-10T13:32:38.179Z",
+        "stakeholder": "Radiology",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c77af6e370b14f2ad74940",
+          "pipeline_number": 999,
+          "business_driven": true,
+          "focus": true,
+          "category": 3,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a58",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "Department of Health are moving iPM",
+        "summary": " systems from archaic intergration models to RESTful APIs. This will require extensive testing by agencies to ensure integratoins anre not lost in the process",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T12:01:05.582Z",
+        "review_dt": "2024-03-14T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efebf",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efec0",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5a2402ef140f8299b795e",
+          "pipeline_number": 2,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a0b",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Redesign parenteral line access documentation",
+        "summary": "",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:32.452Z",
+        "review_dt": "2024-01-29T00:00:00.000Z",
+        "stakeholder": "Infection Control",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe39",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe3a",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe3b",
+          "pipeline_number": 5,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a0f",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Procure and roll out an electronic patient flow management solution.",
+        "summary": "Patient care post stroke has been updated in the new version of the stroke pathway. Neurology have requested for this to be made electronic",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T12:29:51.118Z",
+        "review_dt": "2024-01-30T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe3d",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe3e",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe3f",
+          "pipeline_number": 6,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a13",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Align and update pharmacy forumluary",
+        "summary": "Patient care post stroke has been updated in the new version of the stroke pathway. Neurology have requested for this to be made electronic",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:58:10.760Z",
+        "review_dt": "2024-02-11T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe41",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe42",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe43",
+          "pipeline_number": 1,
+          "business_driven": true,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a23",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Organise implementation planning study with vendor.",
+        "summary": "",
+        "complete_flag": true,
+        "complete_dt": "2024-01-20T00:00:00.000Z",
+        "review_dt": "2024-01-14T00:00:00.000Z",
+        "stakeholder": "Operations",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe53",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe54",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe55",
+          "pipeline_number": 3,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a30",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Organise implementation planning study with vendor.",
+        "summary": "",
+        "complete_flag": true,
+        "complete_dt": "2024-01-20T00:00:00.000Z",
+        "review_dt": "2024-01-14T00:00:00.000Z",
+        "stakeholder": "Operations",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe6f",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe70",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe71",
+          "pipeline_number": 3,
+          "business_driven": true,
+          "focus": false,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a50",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T12:14:10.251Z",
+        "review_dt": "2024-03-10T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe9f",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efea0",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5fc6cbb55ec74174d949e",
+          "pipeline_number": 10,
+          "business_driven": true,
+          "focus": false,
+          "category": 2,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": "Stakeholder needs to provide more detail on value"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a53",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T15:40:01.491Z",
+        "review_dt": "2024-02-03T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efeab",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efeac",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5caa3404e0516808e459c",
+          "pipeline_number": 2,
+          "business_driven": false,
+          "focus": false,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65c7677d03d6b94344d608d4"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a54",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T15:39:59.465Z",
+        "review_dt": "2024-01-26T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efeaf",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efeb0",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5a4ba8f76694055707774",
+          "pipeline_number": 2,
+          "business_driven": false,
+          "focus": false,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65c7677d03d6b94344d608d4"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a56",
+        "created_dt": "2024-02-01T00:00:00.000Z",
+        "title": "Overhaul of COVID screening form. ",
+        "summary": "ED/Surgery/Outpatients/Women's Health aligning to one version. ER543215. Need Business Lead to drive.",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T10:40:41.365Z",
+        "review_dt": "2024-03-08T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efeb7",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efeb8",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c601277bfc725612417926",
+          "pipeline_number": 2,
+          "business_driven": false,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a57",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "State requirement for health services to adopt HPI-I and HPI-O",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created identifiers across systems by July 2024. VicDoH has obtained exemption for several years, no further extensions will be granted by ADHA",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T10:14:09.292Z",
+        "review_dt": "2024-02-08T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efebb",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efebc",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5a40349a971fefc31c0d2",
+          "pipeline_number": 2,
+          "business_driven": false,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeef"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a20",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Organise implementation planning study with vendor.",
+        "summary": "",
+        "complete_flag": true,
+        "complete_dt": "2024-01-20T00:00:00.000Z",
+        "review_dt": "2024-02-14T00:00:00.000Z",
+        "stakeholder": "Operations",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe4b",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe4c",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe4d",
+          "pipeline_number": 3,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a40",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:31.964Z",
+        "review_dt": "2024-01-20T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe77",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe78",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-02-09T08:09:31.407Z",
+            "note_id": "65c5ddbb7fc69e1fda8e4a0d",
+            "note_text": "Add a note",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5ddc47fc69e1fda8e4a11",
+          "pipeline_number": 2,
+          "business_driven": true,
+          "focus": true,
+          "category": 3,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a07",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "New stroke pathway form",
+        "summary": "Patient care post stroke has been updated in the new version of the stroke pathway. Neurology have requested for this to be made electronic",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T13:05:34.311Z",
+        "review_dt": "2024-02-08T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe35",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe36",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5a40749a971fefc31c0da",
+          "pipeline_number": 4,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efef0"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a24",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Organise implementation planning study with vendor.",
+        "summary": "",
+        "complete_flag": true,
+        "complete_dt": "2024-01-20T00:00:00.000Z",
+        "review_dt": "2024-01-14T00:00:00.000Z",
+        "stakeholder": "Operations",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe57",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe58",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe59",
+          "pipeline_number": 3,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a21",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Organise implementation planning study with vendor.",
+        "summary": "",
+        "complete_flag": true,
+        "complete_dt": "2024-01-20T00:00:00.000Z",
+        "review_dt": "2024-01-14T00:00:00.000Z",
+        "stakeholder": "Operations",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe4f",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe50",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe51",
+          "pipeline_number": 3,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a52",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment formawef",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-03T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efea7",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efea8",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5a4b58f7669405570776c",
+          "pipeline_number": 2,
+          "business_driven": false,
+          "focus": false,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a55",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T10:14:09.068Z",
+        "review_dt": "2024-02-08T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efeb3",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efeb4",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5be6acd6c1a572bb730a0",
+          "pipeline_number": 2,
+          "business_driven": false,
+          "focus": false,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5e15389b9a72e918af0c8",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "Test",
+        "summary": "Test",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T10:14:15.125Z",
+        "review_dt": "2024-02-09T00:00:00.000Z",
+        "stakeholder": "Test",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [
+          {
+            "note_dt": "2024-02-09T16:19:23.757Z",
+            "note_id": "65c6508b3ca4e153ea4652f0",
+            "note_text": "rth",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5e15389b9a72e918af0c9",
+          "pipeline_number": null,
+          "business_driven": null,
+          "focus": null,
+          "category": null,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5ee0169d9fec59c309863",
+        "created_dt": "2024-02-09T09:18:57.681Z",
+        "title": "123",
+        "summary": "asdf",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T10:14:08.591Z",
+        "review_dt": "2024-02-06T00:00:00.000Z",
+        "stakeholder": "",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c5ee0169d9fec59c309864",
+          "pipeline_number": null,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5ee1869d9fec59c309871",
+        "created_dt": "2024-02-09T09:19:20.117Z",
+        "title": "123",
+        "summary": "Test",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T12:22:48.023Z",
+        "review_dt": "2024-02-11T00:00:00.000Z",
+        "stakeholder": "",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [
+          {
+            "note_dt": "2024-02-09T09:19:56.601Z",
+            "note_id": "65c5ee3c69d9fec59c309879",
+            "note_text": "Test",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5ee1869d9fec59c309872",
+          "pipeline_number": null,
+          "business_driven": true,
+          "focus": true,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c5ef8a69d9fec59c309885",
+        "created_dt": "2024-02-09T09:25:30.766Z",
+        "title": "Addition of Contrast Agents into Cerner. ",
+        "summary": "Improved patient safety on transparency of where radiocontrast items have been used.",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T13:05:16.244Z",
+        "review_dt": "2024-02-10T00:00:00.000Z",
+        "stakeholder": "Radiology - Scott Cripps",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c61905cc970b846a9da6b8",
+          "pipeline_number": 1,
+          "business_driven": true,
+          "focus": true,
+          "category": 1,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "234"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a43",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are createdwef",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:30.974Z",
+        "review_dt": "2024-01-26T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe83",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe84",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5ea1926892892b3f089e6",
+          "pipeline_number": 2,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a27",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Organise implementation planning study with vendor.",
+        "summary": "",
+        "complete_flag": true,
+        "complete_dt": "2024-01-20T00:00:00.000Z",
+        "review_dt": "2024-01-14T00:00:00.000Z",
+        "stakeholder": "Operations",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe63",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe64",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe65",
+          "pipeline_number": 3,
+          "business_driven": true,
+          "focus": false,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a45",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-10T04:28:34.078Z",
+        "review_dt": "2024-03-16T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe8b",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe8c",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c6f13b05b42ea638cf3ef9",
+          "pipeline_number": 2,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c9f8870f49db430a428d79",
+        "created_dt": "2024-02-12T10:52:55.370Z",
+        "title": "Theatre Management/Anaesthetics/Biomedical Device RFI. WFW: Need to paint clearer picture of whole project",
+        "summary": "6 months\nLead: $80K\nPM: $110,500  @ ($850/day)\nBA: $97500 @ ($750/day)",
+        "complete_flag": true,
+        "complete_dt": "2024-02-12T10:53:12.561Z",
+        "review_dt": "2024-02-12T10:52:55.370Z",
+        "stakeholder": "Dept of Surgery",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c9f8870f49db430a428d7a",
+          "pipeline_number": 999,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c9f8bd0f49db430a428d93",
+        "created_dt": "2024-02-12T10:53:49.488Z",
+        "title": "[Cerner] Advanced Capture - WFW Hy to organise meeting to discuss strategy in new year",
+        "summary": "29/6/22: Demo provided",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-17T00:00:00.000Z",
+        "stakeholder": "Health Information Services",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [
+          {
+            "note_dt": "2024-02-12T10:54:00.398Z",
+            "note_id": "65c9f8c80f49db430a428d9d",
+            "note_text": "Peter happy to meet and talk strategy",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65cad728dd94c4406d99f97d",
+          "pipeline_number": 6,
+          "business_driven": true,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c9f8f80f49db430a428daa",
+        "created_dt": "2024-02-12T10:54:48.698Z",
+        "title": "[Cerner] ePrescriptions",
+        "summary": "1. HTS to sort out Alias Pools First\n2. Confirmation needed re: Ste funding or not (P2 Sentinel)",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-12T10:54:48.698Z",
+        "stakeholder": "Dept of Medicine",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [
+          {
+            "note_dt": "2024-02-12T10:55:13.561Z",
+            "note_id": "65c9f9110f49db430a428db8",
+            "note_text": "Alfred Scheduled to go live Q1 2023",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65cab08d9c42e8f849c15bfa",
+          "pipeline_number": 2,
+          "business_driven": true,
+          "focus": true,
+          "category": 3,
+          "important": true,
+          "urgent": false,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c9f9cf0f49db430a428dc5",
+        "created_dt": "2024-02-12T10:58:23.304Z",
+        "title": "Find someone on the Waitlist/Theatre ASL solution to speak with Salesforce by 21/11/2022 WFW: Hy to let Deb know Robyn Scott",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-12T10:58:23.304Z",
+        "stakeholder": "Dept of Surgery",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad726dd94c4406d99f977",
+          "pipeline_number": 4,
+          "business_driven": true,
+          "focus": false,
+          "category": 4,
+          "important": true,
+          "urgent": false,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a909ff",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "New stroke pathway form",
+        "summary": "Patient care post stroke has been updated in the new version of the stroke pathway. Neurology have requested for this to be made electronic",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T12:30:12.675Z",
+        "review_dt": "2024-02-18T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Backlog",
+        "status_micro": "Unassigned",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe31",
+            "note_text": "Ranked as urgent/important by executive team, to be picked up next.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-30T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe32",
+            "note_text": "Met with Neurology to discuss requirements, processes and deployment of paper pathways has not started yet, education campaign to occur before electronic updates to occur - agree to discuss again late march",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c616fbcc970b846a9da661",
+          "pipeline_number": 3,
+          "business_driven": false,
+          "focus": false,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c9fa500f49db430a428de6",
+        "created_dt": "2024-02-12T11:00:32.952Z",
+        "title": "Title/Gender/Identifies As/Pronouns",
+        "summary": "Incorporate into Digital Health Solutions",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-12T11:00:32.952Z",
+        "stakeholder": "Rainbow Tick committee",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cab08f9c42e8f849c15bfe",
+          "pipeline_number": 1,
+          "business_driven": true,
+          "focus": true,
+          "category": 3,
+          "important": true,
+          "urgent": false,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c9fa870f49db430a428dec",
+        "created_dt": "2024-02-12T11:01:27.836Z",
+        "title": "Resus SR873453 Feasibility SR re: Mpage Component (Resus Plan)",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-12T11:01:27.836Z",
+        "stakeholder": "National Standard 8",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad772dd94c4406d99f9a5",
+          "pipeline_number": 7,
+          "business_driven": true,
+          "focus": true,
+          "category": 3,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "Skill not available in team"
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efef2"
+        }
+      },
+      {
+        "_id": "65c9facb0f49db430a428df2",
+        "created_dt": "2024-02-12T11:02:35.185Z",
+        "title": "Recruit to backfill Maternity leave for team member",
+        "summary": "Team A is going on leave, need to backfill training role",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-12T11:02:35.185Z",
+        "stakeholder": "BAU",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c9facb0f49db430a428df3",
+          "pipeline_number": 999,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c9faf30f49db430a428df8",
+        "created_dt": "2024-02-12T11:03:15.167Z",
+        "title": "Code upgrade - team required to carry out testing on new code + regression",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-12T11:03:15.167Z",
+        "stakeholder": "BAU",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c9faf30f49db430a428df9",
+          "pipeline_number": 999,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c9fb390f49db430a428dfe",
+        "created_dt": "2024-02-12T11:04:25.957Z",
+        "title": "Investigate Privacy breach in electronic patient record",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-12T11:04:25.957Z",
+        "stakeholder": "Privacy Information Release Unit",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad77bdd94c4406d99f9ac",
+          "pipeline_number": 11,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c7677d03d6b94344d608d4"
+        }
+      },
+      {
+        "_id": "65c9fb4c0f49db430a428e04",
+        "created_dt": "2024-02-12T11:04:44.450Z",
+        "title": "Provide into into Coroners Investigation",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-12T11:04:44.450Z",
+        "stakeholder": "Legal",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cab0919c42e8f849c15c01",
+          "pipeline_number": 5,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a47",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T12:00:02.747Z",
+        "review_dt": "2024-01-13T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe93",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe94",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c603e27bfc725612417958",
+          "pipeline_number": 2,
+          "business_driven": true,
+          "focus": false,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c9fa190f49db430a428dd7",
+        "created_dt": "2024-02-12T10:59:37.997Z",
+        "title": "Preliminary notes CCL -  query unsigned docs and email out to Drs. ",
+        "summary": "WFW: HL develop CCL to identify unsigned documents?",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-12T10:59:37.997Z",
+        "stakeholder": "Marjoree Sehu",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad727dd94c4406d99f97a",
+          "pipeline_number": 5,
+          "business_driven": true,
+          "focus": false,
+          "category": 4,
+          "important": true,
+          "urgent": false,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c7677d03d6b94344d608d4"
+        }
+      },
+      {
+        "_id": "65c5f34b2c84399a29b09df7",
+        "created_dt": "2024-02-09T09:41:31.782Z",
+        "title": "123",
+        "summary": "123",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:23.494Z",
+        "review_dt": "2024-02-09T09:41:31.782Z",
+        "stakeholder": "123",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c5f34b2c84399a29b09df8",
+          "pipeline_number": null,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5f3272c84399a29b09df4",
+        "created_dt": "2024-02-09T09:40:55.595Z",
+        "title": "123",
+        "summary": "123",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:23.340Z",
+        "review_dt": "2024-02-09T09:40:55.595Z",
+        "stakeholder": "123",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c5f3272c84399a29b09df5",
+          "pipeline_number": null,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5ffdbbb55ec74174d94d6",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "Procure electronic ICU solution",
+        "summary": "ICU need an electronic system",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-09T00:00:00.000Z",
+        "stakeholder": "ICU",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [],
+        "priority": {
+          "priority_id": "65cad754dd94c4406d99f992",
+          "pipeline_number": 50,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5f2a569d9fec59c30989d",
+        "created_dt": "2024-02-09T09:38:45.754Z",
+        "title": "Dietitians need new TPN form",
+        "summary": "New TPN formulas made available, need new form to prescribe, adminster and monitor",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T12:30:18.874Z",
+        "review_dt": "2024-02-02T00:00:00.000Z",
+        "stakeholder": "Physio",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c6170dcc970b846a9da673",
+          "pipeline_number": 1,
+          "business_driven": true,
+          "focus": false,
+          "category": 3,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "Recommended initiative"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c5f3572c84399a29b09e06",
+        "created_dt": "2024-02-09T09:41:43.322Z",
+        "title": "123",
+        "summary": "123",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:23.790Z",
+        "review_dt": "2024-02-09T09:41:43.322Z",
+        "stakeholder": "123",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c5f3572c84399a29b09e07",
+          "pipeline_number": null,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5f308f888533a98dcb426",
+        "created_dt": "2024-02-09T09:40:24.156Z",
+        "title": "123",
+        "summary": "123",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:23.198Z",
+        "review_dt": "2024-02-09T09:40:24.156Z",
+        "stakeholder": "123",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c5f308f888533a98dcb427",
+          "pipeline_number": null,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5f4e15f537ad1f4ed35cb",
+        "created_dt": "2024-02-09T09:48:17.428Z",
+        "title": "123",
+        "summary": "123",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:59:45.126Z",
+        "review_dt": "2024-02-09T09:48:17.428Z",
+        "stakeholder": "",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c5f4e15f537ad1f4ed35cc",
+          "pipeline_number": null,
+          "business_driven": true,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a17",
+        "created_dt": "2023-12-20T00:00:00.000Z",
+        "title": "Write policy on sharing of patient data in the context of working within a digital health ",
+        "summary": "Policy needed to cover practice",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:13:33.464Z",
+        "review_dt": "2024-02-12T00:00:00.000Z",
+        "stakeholder": "Data integrity team",
+        "status_macro": "Backlog",
+        "status_micro": "Design",
+        "note": [],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe45",
+          "pipeline_number": 8,
+          "business_driven": true,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c5f6385f537ad1f4ed35d4",
+        "created_dt": "2024-02-09T09:54:00.795Z",
+        "title": "123",
+        "summary": "123",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:24.379Z",
+        "review_dt": "2024-02-09T09:54:00.795Z",
+        "stakeholder": "123",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c5f7d0bb55ec74174d9424",
+          "pipeline_number": null,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5f6febb55ec74174d9413",
+        "created_dt": "2024-02-09T09:57:18.539Z",
+        "title": "123",
+        "summary": "Why does my name get wiped out?",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T12:17:57.435Z",
+        "review_dt": "2024-03-10T00:00:00.000Z",
+        "stakeholder": "asdf",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c5fb8dbb55ec74174d9477",
+          "pipeline_number": null,
+          "business_driven": true,
+          "focus": true,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c5f7b6bb55ec74174d9416",
+        "created_dt": "2024-02-09T10:00:22.978Z",
+        "title": "ef",
+        "summary": "wef",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T12:05:56.783Z",
+        "review_dt": "2024-02-09T10:00:22.978Z",
+        "stakeholder": "ED",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c5fab5bb55ec74174d9444",
+          "pipeline_number": 1,
+          "business_driven": true,
+          "focus": true,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c5ff3dbb55ec74174d94bc",
+        "created_dt": "2024-02-09T10:32:29.838Z",
+        "title": "123",
+        "summary": "123",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:24.517Z",
+        "review_dt": "2024-02-09T10:32:29.838Z",
+        "stakeholder": "123",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c5ff3dbb55ec74174d94bd",
+          "pipeline_number": 100,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5ff47bb55ec74174d94c3",
+        "created_dt": "2024-02-09T10:32:39.313Z",
+        "title": "123",
+        "summary": "123",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T10:40:43.375Z",
+        "review_dt": "2024-02-09T10:32:39.313Z",
+        "stakeholder": "123",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c5ff47bb55ec74174d94c4",
+          "pipeline_number": 100,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5ffd9bb55ec74174d94c7",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "Procure Residential Aged Care Solution",
+        "summary": "eNRMC required",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-09T00:00:00.000Z",
+        "stakeholder": "Test",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [],
+        "priority": {
+          "priority_id": "65cad757dd94c4406d99f995",
+          "pipeline_number": 15,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5f3605f537ad1f4ed35b6",
+        "created_dt": "2024-02-09T09:41:52.600Z",
+        "title": "Prescription update - remove private indicator",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-03-10T00:00:00.000Z",
+        "stakeholder": "Pharmacy",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad73add94c4406d99f988",
+          "pipeline_number": 999,
+          "business_driven": true,
+          "focus": false,
+          "category": 4,
+          "important": false,
+          "urgent": false,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5ffdbbb55ec74174d94cd",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "Test",
+        "summary": "Test",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-09T00:00:00.000Z",
+        "stakeholder": "Test",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [],
+        "priority": {
+          "priority_id": "65c5ffdbbb55ec74174d94ce",
+          "pipeline_number": null,
+          "business_driven": null,
+          "focus": null,
+          "category": null,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5ffdbbb55ec74174d94d0",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "Test",
+        "summary": "Test",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:20.688Z",
+        "review_dt": "2024-02-09T00:00:00.000Z",
+        "stakeholder": "Test",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [],
+        "priority": {
+          "priority_id": "65c5ffdbbb55ec74174d94d1",
+          "pipeline_number": null,
+          "business_driven": null,
+          "focus": null,
+          "category": null,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5ffdbbb55ec74174d94d3",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "Test",
+        "summary": "Test",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-09T00:00:00.000Z",
+        "stakeholder": "Test",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [],
+        "priority": {
+          "priority_id": "65c5ffdbbb55ec74174d94d4",
+          "pipeline_number": null,
+          "business_driven": null,
+          "focus": null,
+          "category": null,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5fcc0bb55ec74174d94a9",
+        "created_dt": "2024-02-07T00:00:00.000Z",
+        "title": "PBS Monthly audit",
+        "summary": "The Cerner EHR requires monthly PBS updates to ensure medications prescribed are in line with PBS subsidies.",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-03-01T00:00:00.000Z",
+        "stakeholder": "BAU",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [
+          {
+            "note_dt": "2024-02-12T10:12:25.862Z",
+            "note_id": "65c9ef090f49db430a428c53",
+            "note_text": "Decemeber 2023 done",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-02-12T10:12:32.340Z",
+            "note_id": "65c9ef100f49db430a428c57",
+            "note_text": "January 2024 done",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-02-12T10:12:37.986Z",
+            "note_id": "65c9ef150f49db430a428c5b",
+            "note_text": "February 2024 done",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c9f24b0f49db430a428cd0",
+          "pipeline_number": 2,
+          "business_driven": null,
+          "focus": null,
+          "category": null,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efef2"
+        }
+      },
+      {
+        "_id": "65c5ffdbbb55ec74174d94d9",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "Test",
+        "summary": "Test",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:21.946Z",
+        "review_dt": "2024-02-09T00:00:00.000Z",
+        "stakeholder": "Test",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [],
+        "priority": {
+          "priority_id": "65c5ffdbbb55ec74174d94da",
+          "pipeline_number": null,
+          "business_driven": null,
+          "focus": null,
+          "category": null,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65bbbd2f65776db3b4a90a48",
+        "created_dt": "2023-12-14T00:00:00.000Z",
+        "title": "ED risk assessment form",
+        "summary": "ED have rolled out new ED risks assessment forms, have request electronic versions are created",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T12:05:51.923Z",
+        "review_dt": "2024-01-12T00:00:00.000Z",
+        "stakeholder": "ED",
+        "status_macro": "Developing",
+        "status_micro": "Design",
+        "note": [
+          {
+            "note_dt": "2024-01-25T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe97",
+            "note_text": "Ranked as urgent/important by executive team, to pick this up and drop works with mental health team.",
+            "note_type": "Prioritisation",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          },
+          {
+            "note_dt": "2024-01-28T00:00:00.000Z",
+            "note_id": "65c5681eada9c3ff849efe98",
+            "note_text": "Met with ED to discuss requirements, ED have some decisions to make before coming back, meeting scheduled for 28/2/2024 to discuss outcome",
+            "note_type": "Progress",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65c5681eada9c3ff849efe99",
+          "pipeline_number": 2,
+          "business_driven": true,
+          "focus": false,
+          "category": 2,
+          "important": true,
+          "urgent": true,
+          "high_effort": true,
+          "comment": "unanimous decision by executive"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c5f3825f537ad1f4ed35c1",
+        "created_dt": "2024-02-09T09:42:26.491Z",
+        "title": "1234",
+        "summary": "1234",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:24.091Z",
+        "review_dt": "2024-02-09T09:42:26.491Z",
+        "stakeholder": "1234",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c5f3825f537ad1f4ed35c2",
+          "pipeline_number": null,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c600fb7bfc725612417916",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "Update autotext - MRF",
+        "summary": "Testasdf",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-03-09T00:00:00.000Z",
+        "stakeholder": "Pharmacy",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [],
+        "priority": {
+          "priority_id": "65cad73bdd94c4406d99f98b",
+          "pipeline_number": 999,
+          "business_driven": true,
+          "focus": false,
+          "category": 4,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5ffdabb55ec74174d94ca",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "Electronic Enteral Feeds",
+        "summary": "Test",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-03-02T00:00:00.000Z",
+        "stakeholder": "Dietetics",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [],
+        "priority": {
+          "priority_id": "65cad76fdd94c4406d99f9a2",
+          "pipeline_number": 14,
+          "business_driven": true,
+          "focus": true,
+          "category": 3,
+          "important": null,
+          "urgent": null,
+          "high_effort": true,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5ffdbbb55ec74174d94dc",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "HITH bed tracker",
+        "summary": "Test",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-09T00:00:00.000Z",
+        "stakeholder": "HITH",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [],
+        "priority": {
+          "priority_id": "65cad784dd94c4406d99f9af",
+          "pipeline_number": 1000,
+          "business_driven": true,
+          "focus": true,
+          "category": 3,
+          "important": false,
+          "urgent": null,
+          "high_effort": true,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c601127bfc72561241791a",
+        "created_dt": "2024-02-09T10:40:18.693Z",
+        "title": "Pharmacy Formulary alignment",
+        "summary": "123123",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-18T00:00:00.000Z",
+        "stakeholder": "Pharmacy",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad6aadd94c4406d99f959",
+          "pipeline_number": 100,
+          "business_driven": true,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c6011d7bfc725612417922",
+        "created_dt": "2024-02-09T10:40:29.661Z",
+        "title": "Update perenteral lines documentation",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-09T10:40:29.661Z",
+        "stakeholder": "Infection Control",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad68cdd94c4406d99f951",
+          "pipeline_number": 100,
+          "business_driven": true,
+          "focus": true,
+          "category": 2,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c603a17bfc725612417954",
+        "created_dt": "2024-02-09T10:51:13.114Z",
+        "title": "Create new Pharmacy Note ",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-03-10T00:00:00.000Z",
+        "stakeholder": "Pharmacy Dept",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad5d7dd94c4406d99f919",
+          "pipeline_number": 100,
+          "business_driven": true,
+          "focus": false,
+          "category": 3,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c5fcb4bb55ec74174d94a6",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "Publish Roster (Every Tuesday, week 2)",
+        "summary": "Fortnightly publishing of roster to keep 4-6 weeks published ahead in line with enterprise agreement",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-06T00:00:00.000Z",
+        "stakeholder": "BAU",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [],
+        "priority": {
+          "priority_id": "65c9f2470f49db430a428cc8",
+          "pipeline_number": 30,
+          "business_driven": false,
+          "focus": false,
+          "category": null,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c608447bfc72561241798b",
+        "created_dt": "2024-02-09T11:11:00.082Z",
+        "title": "Create ED Mental Health Assessment form",
+        "summary": "Mental Health require an initial assessment form for patients presenting to ED, this determines the decision on whether to treat in ED or admit to Mental Health wards",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-29T00:00:00.000Z",
+        "stakeholder": "Mental Health",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [
+          {
+            "note_dt": "2024-02-10T18:38:19.762Z",
+            "note_id": "65c7c29bc368a659aaa0c7be",
+            "note_text": "Put on hold by stakeholder",
+            "note_type": "Progress Note",
+            "note_author": {
+              "_id": "65b8ed239359f0fca323570c"
+            }
+          }
+        ],
+        "priority": {
+          "priority_id": "65cad775dd94c4406d99f9a8",
+          "pipeline_number": 10,
+          "business_driven": true,
+          "focus": true,
+          "category": 3,
+          "important": true,
+          "urgent": false,
+          "high_effort": true,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeef"
+        }
+      },
+      {
+        "_id": "65c608717bfc7256124179d4",
+        "created_dt": "2024-02-09T11:11:45.083Z",
+        "title": "Regression testing GP upload ",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-09T11:11:45.083Z",
+        "stakeholder": "DoH",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad544dd94c4406d99f8fd",
+          "pipeline_number": 100,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c608bc7bfc7256124179dc",
+        "created_dt": "2024-02-09T11:13:00.840Z",
+        "title": "123",
+        "summary": "123",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:59:40.459Z",
+        "review_dt": "2024-02-10T00:00:00.000Z",
+        "stakeholder": "123",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c608bc7bfc7256124179dd",
+          "pipeline_number": 100,
+          "business_driven": true,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c608cb7bfc7256124179e0",
+        "created_dt": "2024-02-09T11:13:15.618Z",
+        "title": "TEST NEW TASKS!",
+        "summary": "123",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:59:39.280Z",
+        "review_dt": "2024-02-10T00:00:00.000Z",
+        "stakeholder": "123",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c608cb7bfc7256124179e1",
+          "pipeline_number": 100,
+          "business_driven": true,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": "123"
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c5ffdcbb55ec74174d94e2",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "Update Powerform - Focused assessment Tool",
+        "summary": "Test",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-09T00:00:00.000Z",
+        "stakeholder": "Mental Health",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [],
+        "priority": {
+          "priority_id": "65cad5efdd94c4406d99f921",
+          "pipeline_number": null,
+          "business_driven": null,
+          "focus": null,
+          "category": null,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c61722cc970b846a9da681",
+        "created_dt": "2024-02-09T12:14:26.347Z",
+        "title": "Regression testing for MyHealth Record Uploads",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-03-10T00:00:00.000Z",
+        "stakeholder": "DoH",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad531dd94c4406d99f8f5",
+          "pipeline_number": 100,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c6172ccc970b846a9da689",
+        "created_dt": "2024-02-09T12:14:36.634Z",
+        "title": "12341234",
+        "summary": "123412341234",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T12:26:13.182Z",
+        "review_dt": "2024-02-09T12:14:36.634Z",
+        "stakeholder": "",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65c6172ccc970b846a9da68a",
+          "pipeline_number": 100,
+          "business_driven": true,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65b8ed239359f0fca323570c"
+        }
+      },
+      {
+        "_id": "65c5ffdcbb55ec74174d94df",
+        "created_dt": "2024-02-09T00:00:00.000Z",
+        "title": "Test",
+        "summary": "Test",
+        "complete_flag": true,
+        "complete_dt": "2024-02-09T11:11:22.482Z",
+        "review_dt": "2024-02-09T00:00:00.000Z",
+        "stakeholder": "Test",
+        "status_macro": null,
+        "status_micro": null,
+        "note": [],
+        "priority": {
+          "priority_id": "65c5ffdcbb55ec74174d94e0",
+          "pipeline_number": null,
+          "business_driven": null,
+          "focus": null,
+          "category": null,
+          "important": null,
+          "urgent": null,
+          "high_effort": null,
+          "comment": null
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c6073e7bfc725612417973",
+        "created_dt": "2024-02-09T11:06:38.137Z",
+        "title": "Migrate team ticketing system to Ganbarou",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-02-09T11:06:38.137Z",
+        "stakeholder": "BAU",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad564dd94c4406d99f905",
+          "pipeline_number": 100,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      },
+      {
+        "_id": "65c607e77bfc725612417987",
+        "created_dt": "2024-02-09T11:09:27.160Z",
+        "title": "Assist Apps Support and Integration team on iPharmacy Upgrade regression testing",
+        "summary": "",
+        "complete_flag": null,
+        "complete_dt": null,
+        "review_dt": "2024-03-28T00:00:00.000Z",
+        "stakeholder": "IT Apps Integration",
+        "status_macro": "New",
+        "status_micro": "On Hold,",
+        "note": [],
+        "priority": {
+          "priority_id": "65cad5a6dd94c4406d99f90d",
+          "pipeline_number": 100,
+          "business_driven": false,
+          "focus": false,
+          "category": 5,
+          "important": false,
+          "urgent": false,
+          "high_effort": false,
+          "comment": ""
+        },
+        "assigned": {
+          "_id": "65c5681fada9c3ff849efeed"
+        }
+      }
+    ]

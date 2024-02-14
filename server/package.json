@@ -1,12 +1,12 @@
 {
-  "name": "mern-server",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "watch": "nodemon",
-    "seed": "node seeders/seed.js"
+    "watch": "nodemon server.js",
+    "seed": "node seed/seed.js"
   },
   "keywords": [],
   "author": "",
@@ -14,13 +14,15 @@
   "dependencies": {
     "@apollo/server": "^4.7.1",
     "apollo-server-express": "^3.6.2",
-    "bcrypt": "^5.0.0",
-    "express": "^4.17.2",
+    "bcrypt": "^4.0.1",
+    "dotenv": "^16.4.4",
+    "express": "^4.17.1",
     "graphql": "^16.6.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^7.0.2"
+    "mongoose": "^7.0.2",
+    "stripe": "^14.16.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.22"
   }
 }

@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "65c5681fada9c3ff849efef2",
+        "username": "Carmen",
+        "email": "caremen@email.com",
+        "security": "view",
+        "password": "321321321"
+    },
+    {
+        "_id": "65c5681fada9c3ff849efef0",
+        "username": "Matt",
+        "email": "matt@email.com",
+        "security": "user",
+        "password": "321321321"
+    },
+    {
+        "_id": "65c5681fada9c3ff849efeef",
+        "username": "Kyleigh",
+        "email": "kyleigh@email.com",
+        "security": "user",
+        "password": "321321321"
+    },
+    {
+        "_id": "65c7677d03d6b94344d608d4",
+        "username": "Dalibor",
+        "email": "dali@email.com",
+        "security": "user",
+        "password": "321321321"
+    },
+    {
+        "_id": "65b8ed239359f0fca323570c",
+        "username": "Hy",
+        "email": "hy@email.com",
+        "security": "admin",
+        "password": "321321321"
+    },
+    {
+        "_id": "65c5681fada9c3ff849efeed",
+        "username": "Unassigned",
+        "email": "unassigned@email.com",
+        "security": "user",
+        "password": "321321321"
+    }
+]
